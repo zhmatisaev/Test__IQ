@@ -1,0 +1,64 @@
+.fifth__page-content {
+  margin: 0 auto;
+  padding-top: 50px;
+  background-image: url(../img/bg6.jpg);
+  height: 700px;
+}
+.fifth__page-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fifth__page-img {
+  margin: 20px 0 0 0;
+}
+.fifth__page-img img {
+  width: 80%;
+}
+.fifth__page-text {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 50px 0 0px 0;
+}
+.content__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content__img-one {
+  display: flex;
+  margin: 40px 0 30px 0;
+}
+.content__img-two {
+  display: flex;
+  margin: 0px 0 30px 0;
+}
+.blue {
+  margin: 0 20px 0 20px;
+  width: 100px;
+}
+.yellow {
+  margin: 0 20px 0 20px;
+  width: 100px;
+}
+.violet {
+  margin: 0 20px 0 20px;
+  width: 100px;
+}
+
+.third__btn {
+  cursor: pointer;
+  margin: 130px 0 20px 0;
+}
