@@ -60,5 +60,22 @@
 
 .third__btn {
   cursor: pointer;
-  margin: 130px 0 20px 0;
+  margin: 60px 0 20px 0;
+}
+@media (max-width: 767px) {
+  .fifth__page-text {
+    font-size: 16px;
+  }
+  .blue {
+    margin: 0 10px 0 10px;
+    width: 70px;
+  }
+  .yellow {
+    margin: 0 10px 0 10px;
+    width: 70px;
+  }
+  .violet {
+    margin: 0 10px 0 10px;
+    width: 70px;
+  }
 }
