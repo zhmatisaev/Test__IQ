@@ -1,0 +1,79 @@
+.fourteenth__page-content {
+  margin: 0 auto;
+  padding-top: 20px;
+  background-image: url(../img/bg6.jpg);
+  height: 1100px;
+}
+
+.fourteenth__page-container {
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.res {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.content__text {
+  width: 100%;
+}
+
+.page-content__text {
+  margin: 15px 0 20px 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+.get__res {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3bde7c;
+}
+.get__info {
+  margin: 15px 0 15px 0;
+  background: #1c2741;
+  border-radius: 6px;
+}
+.info {
+  padding: 15px 10px 15px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.call {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #3bde7c;
+}
+.listen__result {
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .listen__result {
+    width: 80%;
+  }
+}

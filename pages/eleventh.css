@@ -1,0 +1,76 @@
+.eleventh__page-content {
+  margin: 0 auto;
+  padding-top: 20px;
+  background-image: url(../img/bg6.jpg);
+  height: 750px;
+}
+
+.eleventh__page-container {
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.eleventh__contetn {
+  margin-bottom: 20px;
+}
+
+.eleventh__page-img {
+  margin: 10px 0 0 0;
+}
+.eleventh__page-img img {
+  width: 80%;
+}
+.eleventh__page-text {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 40px 0 30px 0;
+}
+.choose__num {
+  margin: 10px 0 30px 0;
+}
+.num11 {
+  width: 50px;
+  margin: 15px 15px 0 20px;
+}
+@media (max-width: 767px) {
+  .eleventh__contetn img {
+    width: 80%;
+  }
+}
+
+.trirteen__page-text {
+  margin-bottom: 30px;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 40px 0 30px 0;
+}
+
+.trirteen__content-text {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 50px;
+}
