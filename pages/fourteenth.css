@@ -14,6 +14,12 @@
   align-items: center;
   flex-direction: column;
 }
+.header__ready {
+  display: none;
+  color: yellow;
+  font-size: 24px;
+  margin: 15px 0 0 30px;
+}
 .res {
   font-weight: bold;
   font-size: 16px;
@@ -69,11 +75,19 @@
   color: #3bde7c;
 }
 .listen__result {
+  cursor: pointer;
   width: 80%;
 }
 
 @media (max-width: 767px) {
   .listen__result {
     width: 80%;
+    cursor: pointer;
+  }
+  .header__ready {
+    display: block;
+  }
+  .content__text {
+    margin-top: 50px;
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../pages/second.css">
+    <link rel="stylesheet" href="./second.css">
     <link rel="stylesheet" href="./first.css">
     <title>Document</title>
 </head>
@@ -37,35 +37,37 @@
 
 
 
-    <div class="firs__page-content">
-        <div class="firs__page-container">
+    <div class="second__page-content">
+        <div class="second__page-container">
             <div class="second__page-img">
                 <img src="../img/Group2.png" alt="img">
             </div>
-            <div class="firs__page-text">укажите ваш возраст:</div>
+            <div class="second__page-text">укажите ваш возраст:</div>
 
-            
-                <div class="firs__page-choice-man">
+             <!-- <div id="second__content"> -->
+
+                <div id="second__content" class="second__page-choice-1 ">
                     <div><img  class="elleps" src="../img/Ellipse.png" alt=""></div>  
                     <div class="firs__page-man">До 18 </div>
                 </div>
-             
 
-
-             <div class="firs__page-choice-old">
+             <div  id="second__content1" class="second__page-choice-2 ">
                 <div><img class="elleps" src="../img/Ellipse.png" alt=""></div> 
                 <div class="firs__page-woman">От 18 до 28</div>
              </div>  
 
-             <div class="firs__page-choice-man">
+             <div id="second__content2" class="second__page-choice-3 ">
                 <div><img  class="elleps" src="../img/Ellipse.png" alt=""></div>  
                 <div class="firs__page-man">От 29 до 35  </div>
             </div>
 
-            <div class="firs__page-choice-man">
+            <div id="second__content3" class="second__page-choice-4 ">
                 <div><img  class="elleps" src="../img/Ellipse.png" alt=""></div>  
                 <div class="firs__page-man">От 36 </div>
             </div>
+
+             <!-- </div> -->
+               
             
             <a href="../pages/third-page.html"><img class="second__btn" src="../img/btn2.png" alt=""></a>
         </div>
@@ -74,8 +76,42 @@
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="./first-page.js"></script>
+
+    
+    <script src="./second-page.js">
+    </script>
+    
+    <div id="clock" class="example for you">
+
+</div>;
+
+<script> 
+// Copy to Clipboard
+var elem = document.querySelector("#clock");
+console.log("hello")
+//Выведем классы
+console.log(elem.classList); //DOMTokenList ["example", "for", "you"]
+
+//Добавим классы
+elem.classList.add("ok", "understand");
+console.log(elem.classList); //DOMTokenList ["example", "for", "you", "ok", "understand"]
+
+//Переключим классы
+elem.classList.toggle("you");
+elem.classList.toggle("he");
+console.log(elem.classList); //DOMTokenList ["example", "for", "ok", "understand", "he"]
+
+//Проверим класс
+console.log(elem.classList.contains("example")); //true
+console.log(elem.classList.contains("lol")); //false
+
+//И удалим классы
+elem.classList.remove("example", "for", "understand", "he");
+console.log(elem.classList); //DOMTokenList ["ok"]
+    
+</script>
+    
 
     
 </body>
-</html>
+</html>      

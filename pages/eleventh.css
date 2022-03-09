@@ -47,6 +47,10 @@
   .eleventh__contetn img {
     width: 80%;
   }
+  .num11 {
+    /* width: 50px; */
+    margin: 2px 5px 0 5px;
+  }
 }
 
 .trirteen__page-text {
@@ -73,4 +77,13 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .eleventh__page-img {
+    margin: 50px 0 0 0;
+  }
+  .eleven__btn {
+    margin: 20px 0 0 0;
+  }
 }

@@ -1,0 +1,19 @@
+.thirteen__btn {
+  margin: 90px 0 0 0;
+}
+.thirteen__page-img {
+  margin-top: 70px;
+}
+
+@media (max-width: 767px) {
+  .thirteen__page-img {
+    margin-top: 70px;
+  }
+
+  .thirteen__btn {
+    margin: 90px 0 0 0;
+  }
+  .thirteen__page-img img {
+    width: 80%;
+  }
+}

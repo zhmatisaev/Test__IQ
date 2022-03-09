@@ -1,11 +1,11 @@
-.firs__page-content {
+.ten__page-content {
   /* margin: 0 auto; */
   padding-top: 50px;
   background-image: url(../img/bg6.jpg);
   height: 700px;
 }
 
-.firs__page-container {
+.ten__page-container {
   /* margin: 0 auto; */
 
   display: flex;
@@ -14,17 +14,15 @@
   align-items: center;
   flex-direction: column;
 }
-.third__page-img {
-  margin: 20px 0 0 0;
-}
-.third__page-img img {
+
+.ten__page-img img {
   width: 80%;
 }
-.firs__page-text {
+.ten__page-text {
   font-family: PT Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.05em;
@@ -33,7 +31,7 @@
   margin: 40px 0 20px 0;
 }
 
-.nine__page-choice-man {
+.ten__page-choice {
   display: flex;
   text-align: center;
   align-items: center;
@@ -41,19 +39,31 @@
   margin-bottom: 10px;
   /* background: #f2f3f3; */
   opacity: 0.5;
-  width: 340px;
+  width: 380px;
   height: 50px;
 }
-.nine__page-choice-women {
+.ten__page-choice {
   display: flex;
   text-align: center;
   align-items: center;
   background-image: url(../img/choicebg.png);
   opacity: 0.5;
-  width: 340px;
+  width: 380px;
   height: 50px;
 }
-.elleps {
+.ten__page-choice {
+  margin: 10px 0 10px 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  /* width: 90%; */
+  width: 380px;
+  height: 50px;
+}
+
+.ten__elleps {
   padding: 0 20px 0 10px;
   margin-right: 10px;
 }
@@ -65,17 +75,49 @@
   color: #fff;
   font-size: 24px;
 }
-.nine__page-choice-old {
-  margin: 10px 0 10px 0;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  background-image: url(../img/choicebg.png);
-  opacity: 0.5;
-  width: 340px;
-  height: 50px;
-}
 
 .third__btn {
-  margin: 80px 0 20px 0;
+  margin: 50px 0 0 0;
+}
+
+@media (max-width: 767px) {
+  .ten__page-content {
+    /* padding-top: 50px; */
+    height: 730px;
+  }
+  .ten__page-img {
+    margin-top: 30px;
+  }
+  .ten__page-text {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 20px 0 10px 0;
+  }
+  .ten__page-choice {
+    margin: 10px 0 5px 0;
+
+    /* width: 50%;
+    height: 80%; */
+  }
+  /* #change__color {
+    color: #fff;
+    /* background: #000;
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+    transition: background 9999999s;
+  }
+  #change__color:active {
+    background-color: rgb(248, 248, 63);
+    transition: background 0s;
+  } */
 }
