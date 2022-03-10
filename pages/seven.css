@@ -1,3 +1,63 @@
+.seven__page-choice-1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  width: 320px;
+  height: 50px;
+}
+.seven__page-choice-2 {
+  margin: 10px 0 10px 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  width: 320px;
+  height: 50px;
+}
+.seven__page-choice-3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  width: 320px;
+  height: 50px;
+}
+.seven__page-choice-4 {
+  margin: 10px 0 10px 0;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  width: 320px;
+  height: 50px;
+}
+.seven__page-choice-5 {
+  margin: 0 0 10px 0;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  width: 320px;
+  height: 50px;
+}
+.seven__page-choice-6 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url(../img/choicebg.png);
+  opacity: 0.5;
+  width: 320px;
+  height: 50px;
+}
+
 .seven__page-img img {
   width: 80%;
 }

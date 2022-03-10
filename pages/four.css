@@ -42,7 +42,7 @@
   text-transform: lowercase;
   color: #ffffff;
 }
-.firs__page-choice-man {
+.four__page-choice-1 {
   display: flex;
   text-align: center;
   align-items: center;
@@ -52,15 +52,6 @@
   opacity: 0.5;
   width: 320px;
   height: 35px;
-}
-.firs__page-choice-women {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  background-image: url(../img/choicebg.png);
-  opacity: 0.5;
-  width: 320px;
-  height: 30px;
 }
 .elleps {
   padding: 0 30px 0 20px;
@@ -73,16 +64,6 @@
 .firs__page-woman {
   color: #fff;
   font-size: 24px;
-}
-.firs__page-choice-man {
-  margin: 0 0 10px 0;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  background-image: url(../img/choicebg.png);
-  opacity: 0.5;
-  width: 320px;
-  height: 50px;
 }
 
 .four__btn {

@@ -102,22 +102,5 @@
   }
   .ten__page-choice {
     margin: 10px 0 5px 0;
-
-    /* width: 50%;
-    height: 80%; */
   }
-  /* #change__color {
-    color: #fff;
-    /* background: #000;
-    padding: 1.2rem 2rem;
-    cursor: pointer;
-    user-select: none;
-    border: none;
-    outline: none;
-    transition: background 9999999s;
-  }
-  #change__color:active {
-    background-color: rgb(248, 248, 63);
-    transition: background 0s;
-  } */
 }
